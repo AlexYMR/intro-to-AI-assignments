@@ -1,0 +1,1309 @@
+=======
+Start: Big Ben
+End: Big Ben
+==========
+Result path:
+['Big Ben']
+=======
+Start: Big Ben
+End: Big Cannon Hall
+==========
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (20)
+------
+Hackathon Laboratory added to PQ (42)
+------
+Result path:
+['Big Ben', 'Big Cannon Hall']
+=======
+Start: Big Ben
+End: College Column
+==========
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (26)
+------
+Hackathon Laboratory added to PQ (44)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (130)
+------
+Stagger Hall added to PQ (97)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (90)
+------
+Stagger Hall added to PQ (107)
+------
+Result path:
+['Big Ben', 'Hackathon Laboratory', 'College Column']
+=======
+Start: Big Ben
+End: Hackathon Laboratory
+==========
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (22)
+------
+Hackathon Laboratory added to PQ (40)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (126)
+------
+Stagger Hall added to PQ (94)
+------
+Result path:
+['Big Ben', 'Hackathon Laboratory']
+=======
+Start: Big Ben
+End: Library
+==========
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (25)
+------
+Hackathon Laboratory added to PQ (46)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (120)
+------
+Stagger Hall added to PQ (93)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (100)
+------
+Stagger Hall added to PQ (103)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+College Column added to PQ (190)
+------
+Library added to PQ (130)
+------
+Multicultural Center added to PQ (125)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Multicultural Center added to PQ (185)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Library added to PQ (140)
+------
+Multicultural Center added to PQ (135)
+------
+Result path:
+['Big Ben', 'Big Cannon Hall', 'Library']
+=======
+Start: Big Ben
+End: Multicultural Center
+==========
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (26)
+------
+Hackathon Laboratory added to PQ (45)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (125)
+------
+Stagger Hall added to PQ (93)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (96)
+------
+Stagger Hall added to PQ (103)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+College Column added to PQ (186)
+------
+Library added to PQ (135)
+------
+Multicultural Center added to PQ (120)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Multicultural Center added to PQ (180)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Library added to PQ (145)
+------
+Multicultural Center added to PQ (130)
+------
+Result path:
+['Big Ben', 'Big Cannon Hall', 'Stagger Hall', 'Multicultural Center']
+=======
+Start: Big Ben
+End: Stagger Hall
+==========
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (25)
+------
+Hackathon Laboratory added to PQ (44)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (123)
+------
+Stagger Hall added to PQ (90)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (97)
+------
+Stagger Hall added to PQ (100)
+------
+Result path:
+['Big Ben', 'Big Cannon Hall', 'Stagger Hall']
+=======
+Start: Big Cannon Hall
+End: Big Ben
+==========
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (20)
+------
+Library added to PQ (107)
+------
+Stagger Hall added to PQ (75)
+------
+Result path:
+['Big Cannon Hall', 'Big Ben']
+=======
+Start: Big Cannon Hall
+End: Big Cannon Hall
+==========
+Result path:
+['Big Cannon Hall']
+=======
+Start: Big Cannon Hall
+End: College Column
+==========
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (26)
+------
+Library added to PQ (110)
+------
+Stagger Hall added to PQ (77)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Hackathon Laboratory added to PQ (64)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (110)
+------
+Stagger Hall added to PQ (127)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+College Column added to PQ (160)
+------
+Library added to PQ (120)
+------
+Multicultural Center added to PQ (106)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (190)
+------
+Result path:
+['Big Cannon Hall', 'Big Ben', 'Hackathon Laboratory', 'College Column']
+=======
+Start: Big Cannon Hall
+End: Hackathon Laboratory
+==========
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (22)
+------
+Library added to PQ (106)
+------
+Stagger Hall added to PQ (74)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Hackathon Laboratory added to PQ (60)
+------
+Result path:
+['Big Cannon Hall', 'Big Ben', 'Hackathon Laboratory']
+=======
+Start: Big Cannon Hall
+End: Library
+==========
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (27)
+------
+Library added to PQ (100)
+------
+Stagger Hall added to PQ (73)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Hackathon Laboratory added to PQ (66)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (120)
+------
+Stagger Hall added to PQ (123)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+College Column added to PQ (170)
+------
+Library added to PQ (110)
+------
+Multicultural Center added to PQ (105)
+------
+Result path:
+['Big Cannon Hall', 'Library']
+=======
+Start: Big Cannon Hall
+End: Multicultural Center
+==========
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (26)
+------
+Library added to PQ (105)
+------
+Stagger Hall added to PQ (73)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Hackathon Laboratory added to PQ (65)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (116)
+------
+Stagger Hall added to PQ (123)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+College Column added to PQ (166)
+------
+Library added to PQ (115)
+------
+Multicultural Center added to PQ (100)
+------
+Result path:
+['Big Cannon Hall', 'Stagger Hall', 'Multicultural Center']
+=======
+Start: Big Cannon Hall
+End: Stagger Hall
+==========
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (25)
+------
+Library added to PQ (103)
+------
+Stagger Hall added to PQ (70)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Hackathon Laboratory added to PQ (64)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+College Column added to PQ (117)
+------
+Stagger Hall added to PQ (120)
+------
+Result path:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Start: College Column
+End: Big Ben
+==========
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Hackathon Laboratory added to PQ (62)
+------
+Multicultural Center added to PQ (96)
+------
+Stagger Hall added to PQ (95)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (100)
+------
+Stagger Hall added to PQ (125)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (182)
+------
+Library added to PQ (137)
+------
+Multicultural Center added to PQ (126)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+Result path:
+['College Column', 'Hackathon Laboratory', 'Big Ben']
+=======
+Start: College Column
+End: Big Cannon Hall
+==========
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Hackathon Laboratory added to PQ (62)
+------
+Multicultural Center added to PQ (96)
+------
+Stagger Hall added to PQ (95)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (102)
+------
+Stagger Hall added to PQ (125)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (180)
+------
+Library added to PQ (135)
+------
+Multicultural Center added to PQ (126)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (120)
+------
+Result path:
+['College Column', 'Hackathon Laboratory', 'Big Ben', 'Big Cannon Hall']
+=======
+Start: College Column
+End: College Column
+==========
+Result path:
+['College Column']
+=======
+Start: College Column
+End: Hackathon Laboratory
+==========
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Hackathon Laboratory added to PQ (60)
+------
+Multicultural Center added to PQ (95)
+------
+Stagger Hall added to PQ (94)
+------
+Result path:
+['College Column', 'Hackathon Laboratory']
+=======
+Start: College Column
+End: Library
+==========
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Hackathon Laboratory added to PQ (66)
+------
+Multicultural Center added to PQ (95)
+------
+Stagger Hall added to PQ (93)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (107)
+------
+Stagger Hall added to PQ (123)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (185)
+------
+Library added to PQ (130)
+------
+Multicultural Center added to PQ (125)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (125)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (215)
+------
+Library added to PQ (160)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (220)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+Result path:
+['College Column', 'Stagger Hall', 'Library']
+=======
+Start: College Column
+End: Multicultural Center
+==========
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Hackathon Laboratory added to PQ (65)
+------
+Multicultural Center added to PQ (90)
+------
+Stagger Hall added to PQ (93)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (106)
+------
+Stagger Hall added to PQ (123)
+------
+Result path:
+['College Column', 'Multicultural Center']
+=======
+Start: College Column
+End: Stagger Hall
+==========
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Hackathon Laboratory added to PQ (64)
+------
+Multicultural Center added to PQ (93)
+------
+Stagger Hall added to PQ (90)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (105)
+------
+Stagger Hall added to PQ (120)
+------
+Result path:
+['College Column', 'Stagger Hall']
+=======
+Start: Hackathon Laboratory
+End: Big Ben
+==========
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (40)
+------
+College Column added to PQ (56)
+------
+Stagger Hall added to PQ (65)
+------
+Result path:
+['Hackathon Laboratory', 'Big Ben']
+=======
+Start: Hackathon Laboratory
+End: Big Cannon Hall
+==========
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (42)
+------
+College Column added to PQ (56)
+------
+Stagger Hall added to PQ (65)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (60)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Multicultural Center added to PQ (146)
+------
+Stagger Hall added to PQ (145)
+------
+Result path:
+['Hackathon Laboratory', 'Big Ben', 'Big Cannon Hall']
+=======
+Start: Hackathon Laboratory
+End: College Column
+==========
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (46)
+------
+College Column added to PQ (50)
+------
+Stagger Hall added to PQ (67)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (66)
+------
+Result path:
+['Hackathon Laboratory', 'College Column']
+=======
+Start: Hackathon Laboratory
+End: Hackathon Laboratory
+==========
+Result path:
+['Hackathon Laboratory']
+=======
+Start: Hackathon Laboratory
+End: Library
+==========
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (47)
+------
+College Column added to PQ (60)
+------
+Stagger Hall added to PQ (63)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (65)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Multicultural Center added to PQ (145)
+------
+Stagger Hall added to PQ (143)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (155)
+------
+Library added to PQ (100)
+------
+Multicultural Center added to PQ (95)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (160)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+Result path:
+['Hackathon Laboratory', 'Stagger Hall', 'Library']
+=======
+Start: Hackathon Laboratory
+End: Multicultural Center
+==========
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (46)
+------
+College Column added to PQ (56)
+------
+Stagger Hall added to PQ (63)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (66)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Multicultural Center added to PQ (140)
+------
+Stagger Hall added to PQ (143)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (156)
+------
+Library added to PQ (105)
+------
+Multicultural Center added to PQ (90)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Library added to PQ (165)
+------
+Result path:
+['Hackathon Laboratory', 'Stagger Hall', 'Multicultural Center']
+=======
+Start: Hackathon Laboratory
+End: Stagger Hall
+==========
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (45)
+------
+College Column added to PQ (57)
+------
+Stagger Hall added to PQ (60)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Big Cannon Hall added to PQ (65)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Multicultural Center added to PQ (143)
+------
+Stagger Hall added to PQ (140)
+------
+Result path:
+['Hackathon Laboratory', 'Stagger Hall']
+=======
+Start: Library
+End: Big Ben
+==========
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (92)
+------
+Stagger Hall added to PQ (35)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (122)
+------
+College Column added to PQ (126)
+------
+Hackathon Laboratory added to PQ (82)
+------
+Multicultural Center added to PQ (66)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (156)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (120)
+------
+College Column added to PQ (136)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (110)
+------
+Result path:
+['Library', 'Big Cannon Hall', 'Big Ben']
+=======
+Start: Library
+End: Big Cannon Hall
+==========
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (90)
+------
+Stagger Hall added to PQ (35)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (120)
+------
+College Column added to PQ (126)
+------
+Hackathon Laboratory added to PQ (82)
+------
+Multicultural Center added to PQ (66)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (156)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (122)
+------
+College Column added to PQ (136)
+------
+Result path:
+['Library', 'Big Cannon Hall']
+=======
+Start: Library
+End: College Column
+==========
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (96)
+------
+Stagger Hall added to PQ (37)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (126)
+------
+College Column added to PQ (120)
+------
+Hackathon Laboratory added to PQ (84)
+------
+Multicultural Center added to PQ (66)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (150)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (126)
+------
+College Column added to PQ (130)
+------
+Big Cannon Hall expanded. Neighbors:
+['Big Ben', 'Library', 'Stagger Hall']
+=======
+Big Ben added to PQ (116)
+------
+Big Ben expanded. Neighbors:
+['Big Cannon Hall', 'Hackathon Laboratory']
+=======
+Result path:
+['Library', 'Stagger Hall', 'College Column']
+=======
+Start: Library
+End: Hackathon Laboratory
+==========
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (92)
+------
+Stagger Hall added to PQ (34)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (122)
+------
+College Column added to PQ (124)
+------
+Hackathon Laboratory added to PQ (80)
+------
+Multicultural Center added to PQ (65)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (154)
+------
+Result path:
+['Library', 'Stagger Hall', 'Hackathon Laboratory']
+=======
+Start: Library
+End: Library
+==========
+Result path:
+['Library']
+=======
+Start: Library
+End: Multicultural Center
+==========
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (96)
+------
+Stagger Hall added to PQ (33)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (126)
+------
+College Column added to PQ (126)
+------
+Hackathon Laboratory added to PQ (85)
+------
+Multicultural Center added to PQ (60)
+------
+Result path:
+['Library', 'Stagger Hall', 'Multicultural Center']
+=======
+Start: Library
+End: Stagger Hall
+==========
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (95)
+------
+Stagger Hall added to PQ (30)
+------
+Result path:
+['Library', 'Stagger Hall']
+=======
+Start: Multicultural Center
+End: Big Ben
+==========
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (96)
+------
+Stagger Hall added to PQ (35)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (122)
+------
+College Column added to PQ (126)
+------
+Hackathon Laboratory added to PQ (82)
+------
+Library added to PQ (77)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (162)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (120)
+------
+College Column added to PQ (136)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Result path:
+['Multicultural Center', 'Stagger Hall', 'Hackathon Laboratory', 'Big Ben']
+=======
+Start: Multicultural Center
+End: Big Cannon Hall
+==========
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (96)
+------
+Stagger Hall added to PQ (35)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (120)
+------
+College Column added to PQ (126)
+------
+Hackathon Laboratory added to PQ (82)
+------
+Library added to PQ (75)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (160)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (122)
+------
+College Column added to PQ (136)
+------
+College Column expanded. Neighbors:
+['Hackathon Laboratory', 'Multicultural Center', 'Stagger Hall']
+=======
+Result path:
+['Multicultural Center', 'Stagger Hall', 'Big Cannon Hall']
+=======
+Start: Multicultural Center
+End: College Column
+==========
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (90)
+------
+Stagger Hall added to PQ (37)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (126)
+------
+College Column added to PQ (120)
+------
+Hackathon Laboratory added to PQ (84)
+------
+Library added to PQ (80)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (166)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (126)
+------
+College Column added to PQ (130)
+------
+Result path:
+['Multicultural Center', 'College Column']
+=======
+Start: Multicultural Center
+End: Hackathon Laboratory
+==========
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (94)
+------
+Stagger Hall added to PQ (34)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (122)
+------
+College Column added to PQ (124)
+------
+Hackathon Laboratory added to PQ (80)
+------
+Library added to PQ (76)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (162)
+------
+Result path:
+['Multicultural Center', 'Stagger Hall', 'Hackathon Laboratory']
+=======
+Start: Multicultural Center
+End: Library
+==========
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (100)
+------
+Stagger Hall added to PQ (33)
+------
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (125)
+------
+College Column added to PQ (130)
+------
+Hackathon Laboratory added to PQ (86)
+------
+Library added to PQ (70)
+------
+Result path:
+['Multicultural Center', 'Stagger Hall', 'Library']
+=======
+Start: Multicultural Center
+End: Multicultural Center
+==========
+Result path:
+['Multicultural Center']
+=======
+Start: Multicultural Center
+End: Stagger Hall
+==========
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (97)
+------
+Stagger Hall added to PQ (30)
+------
+Result path:
+['Multicultural Center', 'Stagger Hall']
+=======
+Start: Stagger Hall
+End: Big Ben
+==========
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (92)
+------
+College Column added to PQ (96)
+------
+Hackathon Laboratory added to PQ (52)
+------
+Library added to PQ (47)
+------
+Multicultural Center added to PQ (36)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (126)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (132)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (90)
+------
+College Column added to PQ (106)
+------
+Result path:
+['Stagger Hall', 'Hackathon Laboratory', 'Big Ben']
+=======
+Start: Stagger Hall
+End: Big Cannon Hall
+==========
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (90)
+------
+College Column added to PQ (96)
+------
+Hackathon Laboratory added to PQ (52)
+------
+Library added to PQ (45)
+------
+Multicultural Center added to PQ (36)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (126)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (130)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (92)
+------
+College Column added to PQ (106)
+------
+Result path:
+['Stagger Hall', 'Big Cannon Hall']
+=======
+Start: Stagger Hall
+End: College Column
+==========
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (96)
+------
+College Column added to PQ (90)
+------
+Hackathon Laboratory added to PQ (54)
+------
+Library added to PQ (50)
+------
+Multicultural Center added to PQ (36)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (120)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (136)
+------
+Hackathon Laboratory expanded. Neighbors:
+['Big Ben', 'College Column', 'Stagger Hall']
+=======
+Big Ben added to PQ (96)
+------
+College Column added to PQ (100)
+------
+Result path:
+['Stagger Hall', 'College Column']
+=======
+Start: Stagger Hall
+End: Hackathon Laboratory
+==========
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (92)
+------
+College Column added to PQ (94)
+------
+Hackathon Laboratory added to PQ (50)
+------
+Library added to PQ (46)
+------
+Multicultural Center added to PQ (35)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (124)
+------
+Library expanded. Neighbors:
+['Big Cannon Hall', 'Stagger Hall']
+=======
+Big Cannon Hall added to PQ (132)
+------
+Result path:
+['Stagger Hall', 'Hackathon Laboratory']
+=======
+Start: Stagger Hall
+End: Library
+==========
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (95)
+------
+College Column added to PQ (100)
+------
+Hackathon Laboratory added to PQ (56)
+------
+Library added to PQ (40)
+------
+Multicultural Center added to PQ (35)
+------
+Multicultural Center expanded. Neighbors:
+['College Column', 'Stagger Hall']
+=======
+College Column added to PQ (130)
+------
+Result path:
+['Stagger Hall', 'Library']
+=======
+Start: Stagger Hall
+End: Multicultural Center
+==========
+Stagger Hall expanded. Neighbors:
+['Big Cannon Hall', 'College Column', 'Hackathon Laboratory', 'Library', 'Multicultural Center']
+=======
+Big Cannon Hall added to PQ (96)
+------
+College Column added to PQ (96)
+------
+Hackathon Laboratory added to PQ (55)
+------
+Library added to PQ (45)
+------
+Multicultural Center added to PQ (30)
+------
+Result path:
+['Stagger Hall', 'Multicultural Center']
+=======
+Start: Stagger Hall
+End: Stagger Hall
+==========
+Result path:
+['Stagger Hall']
+LONGEST PATH: 130
+['College Column', 'Stagger Hall', 'Library']

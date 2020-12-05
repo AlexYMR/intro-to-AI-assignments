@@ -1,0 +1,134 @@
+TEST DESCRIPTIONS:
+
+testproblem1.pddl (should fail):
+  >> Essentially a replica of a situation we had in class that was impossible to solve.
+  Requires that a robot move through another robot in order to get to the packing location.
+  Ensures robots aren't teleporting, and that pallets block paths.
+
+testproblem2.pddl (should fail):
+  >> Ensures that merely lifting a pallet does not allow the robot to magically move another pallet.
+  This was the case with my code, and I still managed to pass all of the provided tests...
+  But the fact it passed this one was sorcery!
+
+QUESTIONS:
+
+1.  How would you define a problem with one way paths?  For example, maybe the warehouse
+has a giant ring where all robots move in one direction.  Give an example using five
+locations setup in an unidirectional ring.
+
+>> ANSWER:
+  
+  (define(problem ans)
+    (:domain sokorobotto)
+    (:objects
+      shipment1 - shipment
+      order1 - order
+      loc1 loc2 loc3 loc4 pack1 - location
+      robot1 - robot
+      pallette1 - pallette
+      book1 - saleitem
+    )
+    (:init
+      (connected loc1 loc2)
+      (connected loc2 loc3)
+      (connected loc3 loc4)
+      (connected loc4 pack1)
+      (connected pack1 loc1)
+      (packing-location pack1)
+      (unstarted shipment1)
+      (available pack1)
+      (at pallette1 loc2)
+      (at robot1 loc1)
+      (contains pallette1 book1)
+      (free robot1)
+      (ships shipment1 order1)
+      (orders order1 book1)
+      (no-robot loc2)
+      (no-robot loc3)
+      (no-robot loc4)
+      (no-robot pack1)
+      (no-pallette loc2)
+      (no-pallette loc3)
+      (no-pallette loc4)
+      (no-pallette pack1)
+    )
+    (:goal (includes shipment1 book1))
+  )
+
+  In this problem, the robot is prevented from, for example, returning from loc2 to loc1, since the connection is just defined in one direction. So, it must travel through the ring in order to arrive at the packing location.
+
+2.  What is the plan generated for problem0?  Is this the only valid plan?  Could a 
+planner find a different plan?  If other valid plans are possible, provide an example
+of an alternative plan that is valid.
+
+>> ANSWER:
+
+  Plan generated for problem0:
+
+  (lift robot1 pallette1 loc1)
+  (movewithpallet robot1 pallette1 loc1 pack1)
+  (drop robot1 pallette1 pack1)
+  (start_shipment pallette1 pack1 socks1 shipment1 order1)
+  (deposit pallette1 pack1 socks1 shipment1 order1)
+  (lift robot1 pallette1 pack1)
+  (movewithpallet robot1 pallette1 pack1 loc1)
+  (drop robot1 pallette1 loc1)
+  (move robot1 loc1 pack1)
+  (move robot1 pack1 loc2)
+  (lift robot1 pallette2 loc2)
+  (movewithpallet robot1 pallette2 loc2 pack1)
+  (drop robot1 pallette2 pack1)
+  (deposit pallette2 pack1 book1 shipment1 order1)
+
+  However, yes, a planner could find another plan to solve the problem. Although, I do think the plan above is the most efficient. An example of a plan that also works:
+
+  (move robot1 loc1 pack1)
+  (move robot1 pack1 loc2)
+  (lift robot1 pallette2 loc2)
+  (movewithpallet robot1 pallette2 loc2 pack1)
+  (drop robot1 pallette2 pack1)
+  (start_shipment pallette2 pack1 book1 shipment1 order1)
+  (deposit pallette2 pack1 book1 shipment1 order1)
+  (lift robot1 pallette2 pack1)
+  (movewithpallet robot1 pallette2 pack1 loc2)
+  (drop robot1 pallette2 loc2)
+  (move robot1 loc2 pack1)
+  (move robot1 pack1 loc1)
+  (lift robot1 pallette1 loc1)
+  (movewithpallet robot1 pallette1 loc1 pack1)
+  (drop robot1 pallette1 pack1)
+  (deposit pallette1 pack1 socks1 shipment1 order1)
+
+3. (Extra credit) A common task in robotics is one called "pick-and-place".  The robot 
+picks up an object, moves to another location, and places the object down.  This sequence 
+of common actions is a natural fit for using an HTN.
+
+Imagine we were solving Sokorobotto problems with an HTN instead of PDDL.  All 
+of the actions you have defined are used as operators in the HTN.  You have defined a 
+pick-and-place task.  Now define a method for the pick-and-place task using some of your 
+PDDL actions you have defined.
+
+>> ANSWER:
+  //robot r takes object o from x to y
+  //do we assume r is already at x?
+  //I'll go with no
+  //r: robot, o: object, x: place robot starts, y: place object is, z: place need to take object
+  translate(r,o,x,y,z)
+    task:	pick-and-place(r,o,x,y,z)
+    precond:
+      //robot in same room/next to item (x)
+      at(r,x)
+
+      //object is at y
+      at(o,x)
+
+      //robot can travel to y
+      connected(x,y)
+      no-robot(y)
+      no-object(y)
+
+      //robot isn't holding something else
+      free(r)
+    
+    //use defined PDDL actions to perform this task
+    subtasks:  <move(r,x,y), lift(r,o,y), moveWithPallet(r,o,y,z), drop(r,o,z)>

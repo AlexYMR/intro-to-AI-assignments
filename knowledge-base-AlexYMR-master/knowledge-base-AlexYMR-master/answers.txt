@@ -1,0 +1,11 @@
+1. 
+
+fact: (color sphere1 yellow)
+
+2.
+
+[[(?x, Mammal)]]
+
+Where the outer [] describe the list_of_bindings attribute of a ListOfBindings object,
+and the inner [] describe the bindings attribute of a Bindings object,
+which contains a Binding object whose variable is ?x and whose constant is Mammal.

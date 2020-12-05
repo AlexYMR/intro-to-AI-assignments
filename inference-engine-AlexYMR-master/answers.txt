@@ -1,0 +1,16 @@
+1.  In `test2`, the fact `(grandmotherof ada chen)` is inferred.  With the algorithm you used in your inference engine, what are the fact and rule that directly support this fact?
+
+>> The fact/rule pair: [(motherof ada bing),((motherof ?z bing)) -> (grandmotherof ?z chen)]
+
+2.  Briefly describe a scenario with circular logic where your implementation of `retract` would not work.  Why does `retract` note work?  Note that circular logic has the form A -> B, B -> C, C -> A.  Describe your scenario by giving examples in first-order logic.  Describe what would be the correct result of retracting a fact in the circular logic, what is the effect of your `retract` function, and why they differ.
+
+>> Suppose we have:
+Wins(A) -> Lose(B) -> Wins(C) -> Wins(A)
+
+Now, suppose we assert Wins(A). Then, Lose(B), Wins(C) are inferred, and Wins(A) becomes supported.
+
+Now, suppose we try to retract Wins(A). Then, as currently implemented, it'll try to check for anything it supports, recursively.
+This will lead to a stack overflow, since Wins(C) supports Wins(A), and the recursive stack will pile on until there's no more memory.
+
+What retract should instead do is check whether circular logic exists (check if a supported fact = fact attempting to retract), and
+if so, end the recursion and remove the whole cycle.

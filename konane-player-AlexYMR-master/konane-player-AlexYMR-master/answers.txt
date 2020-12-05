@@ -1,0 +1,50 @@
+1.  Why do test3 and test5 have the same result?  Why is the time limit for test5 less?
+
+>> ANSWER:
+  
+  Test3 uses minimax while test5 uses alpha-beta pruning for the same players. Alpha-beta is supposed to return
+  an identical answer to minimax (in this context and in general), except it's supposed to take less time to
+  return that answer due to its pruning. It calculates that there is no need to explore certain paths,
+  so it doesn't. It's important to have a lower time limit for alpha-beta (like in test5),
+  then, so that a minimax implementation doesn't pass for alpha-beta in our testing.
+
+2.  For test6, it should take less than 300 seconds to run while using a depth of 6.  How long would it take to run if 
+you were to use a depth of 7?  You may assume the following: 
+    1. Each game state has 3 available moves on average. 
+    2. Alpha-Beta Pruning removes 1/3 of the branches.
+    3. There are 30 plies in the game.
+
+>> ANSWER:
+
+  I suspect it should be 3x more. That is, the limit should be raised to ~900, and test6 with a depth of 7 should take no more
+  than that to run.
+
+  The way I got this answer was by counting the number of "nodes," or game states, in the game tree for a particular test depth,
+  and dividing the number nodes at depth 7 by the number of nodes at depth 6.
+
+  At depth 6, we have a summation (2/3)*(sum(k=0,6,3^k)), which is a geometric series that can be written in the closed form
+  (2/3)*(3^5-1)/2.
+
+  At depth 7, we have something similar: (2/3)*(sum(k=0,7,3^k)), which can be written as (2/3)*(3^6-1)/2.
+
+  Dividing these, we can simplify and get (3^6-1)/(3^5-1). This is very close to 3. So, at depth 7, there should be about 3 times
+  more nodes, hence, assuming time spent per node is the same, we should have around 3x more the limit we have for test6 with a
+  depth of 6.
+
+3. (Extra credit)  If you were to alter test6 to use a depth of 7, how long does your code actually take to run?  
+How long does your test6 take to run?  What does this tell you about the three assumptions made in question 2?
+
+>> ANSWER:
+
+  Running test6 alone with a depth of 6 takes a time of 118.132 seconds.
+
+  On the other hand, running test6 with a depth of 7 takes a time of 752.348 seconds.
+
+  By my estimate in my answer for question 2, the time to run test 6 with a depth of 7 should've been closer to 360 seconds.
+  Clearly, something's going on that's not reflected in our assumptions in order to skew the math like this. However,
+  note that the time it took to perform the test was ~752 seconds, which is still less than our estimate for a new time limit (~900).
+
+  In my estimate I didn't really use the number of plies in the game (since we're not searching the whole game tree necessarily,
+  only up to a given depth). We can determine that either the average number of branches removed differ from depth-to-depth,
+  and/or that the branching factor differs. The assumptions made must be off somewhere. Since the average branching factor would have
+  to be ~7 for the correlation between times to make more sense (and that sounds ridiculously high), I'd suggest the average number of branches removed is lower than 1/3 on average as well. 

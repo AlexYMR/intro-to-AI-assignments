@@ -1,0 +1,30 @@
+TESTS WITH ERRORS 
+test14 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/jwilson1/repos/ai/automatedgradingapp/app/testing/CPS367-ArtificialIntelligence-Fall2020/inference/gradingtests.py", line 414, in test14
+    self.assertTrue(str(answer1[0]).startswith("No bindings"))
+IndexError: list index out of range
+
+-------------------------------
+TESTS FAILED  
+test10 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/jwilson1/repos/ai/automatedgradingapp/app/testing/CPS367-ArtificialIntelligence-Fall2020/inference/gradingtests.py", line 282, in test10
+    self.assertFalse(answer2)
+AssertionError: True is not false
+
+test13 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/jwilson1/repos/ai/automatedgradingapp/app/testing/CPS367-ArtificialIntelligence-Fall2020/inference/gradingtests.py", line 379, in test13
+    self.assertFalse(answer1)
+AssertionError: ListOfBindings([(Bindings({}, []), [Fact('fact_7', Statement('heathyPerson', [Term(Constant('A'))]), True, [], [], [])])]) is not false
+
+test5 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/jwilson1/repos/ai/automatedgradingapp/app/testing/CPS367-ArtificialIntelligence-Fall2020/inference/gradingtests.py", line 151, in test5
+    self.assertTrue(len(answer4) > 0)
+AssertionError: False is not true
+
+-------------------------------
+TESTS SKIPPED 
+-------------------------------

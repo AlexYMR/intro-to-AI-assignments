@@ -1,0 +1,33 @@
+1. Using `dis_map` and `time_map2`, what is the longest route (in terms of time to get from start to end) that your 
+code will return?  In other words, the route from Big Cannon Hall to Hackathon Library is 60.  This is not the longest 
+route that your code should be able to return.  What is?
+
+>> ANSWER:
+
+  College Column -> Library
+  Path: ['College Column','Stagger Hall','Library']
+  Total path cost, g(n): 130
+
+  Made a test for it, 'cause being right and lazy feels great.
+
+2. The provided heuristics are consistent.  Give an example of how you could change one of the values to make it 
+inconsistent.  What effect does that have on how your code works?
+
+>> ANSWER:
+
+  The given heuristics is h(n), which estimates the distance from node n to the goal node using dis_map.
+  To have a consistent heuristic, it must satisfy h(n) <= c(n,x) + h(x), where x is a direct successor
+  of node n, and c(n,x) is the real cost of traveling from node n to node x. To make it inconsistent,
+  we need to have | h(n) - h(x) | > c(n,x). Assuming the heuristic stays admissible, we have
+  h(n,x) <= c(n,x), so, we can satisfy | h(n) - h(x) | > h(n,x).
+
+  As an example, let h(n) = dis_map['Big Ben']['Stagger Library'] = 5,
+  let h(x) = dis_map['Hackathon Laboratory']['Stagger Library'] = 4, and
+  let h(n,x) = dis_map['Big Ben']['Hackathon Laboratory'] = 2. If we change h(x) from being 4 to being
+  100, we get | 5 - 100 | > 2, which is true. In doing this, the code would return the path
+  ['Big Ben','Big Cannon Hall','Stagger Hall'] as the shortest path, which is not true, but it IS a
+  valid path.
+
+  Hence, we can see that using an inconsistent heuristic (but an admissible one) causes A* to lose its
+  optimality. So, it'll no longer necessarily return the shortest path, but it will still return a valid
+  path.

@@ -1,0 +1,24 @@
+TESTS WITH ERRORS 
+-------------------------------
+TESTS FAILED  
+test1 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/jwilson1/repos/ai/automatedgradingapp/app/testing/CPS367-ArtificialIntelligence-Fall2020/search/gradingtests.py", line 94, in test1
+    self.assertEqual(expand.expand_count, 5)
+AssertionError: 6 != 5
+
+test5 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/jwilson1/repos/ai/automatedgradingapp/app/testing/CPS367-ArtificialIntelligence-Fall2020/search/gradingtests.py", line 126, in test5
+    self.assertEqual(expand.expand_count, 5)
+AssertionError: 6 != 5
+
+test6 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/jwilson1/repos/ai/automatedgradingapp/app/testing/CPS367-ArtificialIntelligence-Fall2020/search/gradingtests.py", line 134, in test6
+    self.assertEqual(expand.expand_count, 6)
+AssertionError: 8 != 6
+
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
